@@ -9,18 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@auth/mongodb-adapter": "^3.7.4",
-    "mongodb": "^6.13.0",
+    "@auth/mongodb-adapter": "^3.10.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.863.0",
+    "mammoth": "^1.10.0",
+    "mongodb": "^6.18.0",
     "mongoose": "^8.10.0",
     "next": "15.1.6",
     "next-auth": "5.0.0-beta.25",
+    "pdf-parse-new": "^1.4.1",
+    "pdfjs-dist": "^5.4.54",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-dropzone": "^14.3.8",
     "util": "^0.12.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@types/formidable": "^3.4.5",
     "@types/node": "^20",
+    "@types/pdf-parse": "^1.1.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
