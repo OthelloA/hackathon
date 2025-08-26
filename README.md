@@ -1,1 +1,1 @@
-# finapp
+# Hackathon
